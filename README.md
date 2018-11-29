@@ -10,3 +10,13 @@ Basic idea can be found in my CSDN Blog:
 I wrote the Caffe merge script a long time ago while Pytorch merge script recently, thus may have many difference between them. 
 
 Both of them have been tested yet.
+
+# Usage
+
+Before using either of them, you should have a **no-bn version model** first, it means you should have a caffe network prototxt without bn or a pytorch model with all bn layers commented.
+
+After prepare your model and weights, you should modify the path and imports in python scripts
+
+Finally, just run and merge~
+
+BTW, i offered a no-bn version shufflenetv2 model for example
